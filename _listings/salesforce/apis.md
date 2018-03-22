@@ -39,7 +39,7 @@ apis:
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-id-blobfield-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-get.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
