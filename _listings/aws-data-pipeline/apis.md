@@ -18,8 +18,8 @@ tags:
 - Stack Network
 - Data
 - Amazon Web Services
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/action-queryobjects-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/action-describeobjects-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
