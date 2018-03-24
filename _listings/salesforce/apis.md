@@ -26,8 +26,8 @@ tags:
 - Customer
 - CRM
 - BaaS
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -39,7 +39,7 @@ apis:
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-get.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
