@@ -33,8 +33,8 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-ownedobjects-get.md
-- name: Microsoft Graph API List Created Objects
-  description: List createdObjects Get a list of directory objects that were created
+- name: Microsoft Graph API List Owned Objects
+  description: List ownedObjects Get the list of directory objects that are owned
     by the user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
@@ -42,9 +42,9 @@ apis:
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-createdobjects-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-ownedobjects-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-createdobjects-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-ownedobjects-get-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
