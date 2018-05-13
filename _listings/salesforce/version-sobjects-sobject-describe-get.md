@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Salesforce
-  description: Explore the beta Salesforce REST API to integrate CRM.
+  title: SalesForce Get Version Sobjects Sobject Describe
+  description: Completely describes the individual metadata at all levels for the
+    specified object. For example, this can be used to retrieve the fields, URLs,
+    and child relationships for the Account object.
   version: 1.0.0
 host: na14.salesforce.com
 basePath: /services/data
