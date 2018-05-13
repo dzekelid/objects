@@ -40,16 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
-- name: SalesForce Get Version Sobjects Sobject  Blobfield
-  description: Retrieves the specified blob field from an individual record. Because
-    blob fields contain binary data, you can't use JSON or XML to retrieve this data.
+- name: SalesForce Get Version Sobjects User  Password
+  description: Gets password expiration status for a given user. The session must
+    have permission to access the given user password information, otherwise an error
+    response is returned.
   image: https://avatars.githubusercontent.com/u/453694?v=3
   humanURL: https://developer.salesforce.com/
   baseURL: https://na14.salesforce.com//services/data
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-id-blobfield-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-get.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
