@@ -40,15 +40,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
-- name: SalesForce Get Version Sobjects Sobject
-  description: Retrieves individual records for an object.
+- name: SalesForce Delete Version Sobjects Sobject
+  description: Deletes a record.
   image: https://avatars.githubusercontent.com/u/453694?v=3
   humanURL: https://developer.salesforce.com/
   baseURL: https://na14.salesforce.com//services/data
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-id-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-id-delete.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
