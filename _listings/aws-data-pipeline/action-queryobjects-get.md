@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Data Pipeline API
+  title: AWS Data Pipeline API Query Objects
   version: 1.0.0
+  description: Queries the specified pipeline for the names of objects that match
+    the specified set of conditions.
 schemes:
 - http
 produces:
