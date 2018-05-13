@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: Salesforce
-  description: Explore the beta Salesforce REST API to integrate CRM.
+  title: SalesForce Add Version Sobjects User  Password
+  description: Changes the password for a given user ID. The new password must conform
+    to the password policies for the organization, otherwise you will get an error
+    response. You can only change one password per request.
   version: 1.0.0
 host: na14.salesforce.com
 basePath: /services/data
