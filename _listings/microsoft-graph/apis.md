@@ -33,18 +33,19 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/users-id-|-userprincipalname-ownedobjects-get.md
-- name: Microsoft Graph API Get Member Objects
-  description: Get member objects Returns all the groups and directory roles that
-    a user, group, or directory object is a member of. This function is transitive.
+- name: Microsoft Graph API Group Get Member Objects
+  description: 'group: getMemberObjects Return all of the groups that this group is
+    a member of. The check is transitive. Note: Groups cannot be members of directory
+    roles, so no directory roles will be returned.'
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/directoryobjects-id-getmemberobjects-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/groups-id-getmemberobjects-post.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/directoryobjects-id-getmemberobjects-post-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/groups-id-getmemberobjects-post-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
