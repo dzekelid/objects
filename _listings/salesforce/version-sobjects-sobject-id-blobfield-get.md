@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Salesforce
-  description: Explore the beta Salesforce REST API to integrate CRM.
+  title: SalesForce Get Version Sobjects Sobject  Blobfield
+  description: Retrieves the specified blob field from an individual record. Because
+    blob fields contain binary data, you can't use JSON or XML to retrieve this data.
   version: 1.0.0
 host: na14.salesforce.com
 basePath: /services/data
