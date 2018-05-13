@@ -40,17 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
-- name: SalesForce Get Version Sobjects User  Password
-  description: Gets password expiration status for a given user. The session must
-    have permission to access the given user password information, otherwise an error
-    response is returned.
+- name: SalesForce Add Version Sobjects User  Password
+  description: Changes the password for a given user ID. The new password must conform
+    to the password policies for the organization, otherwise you will get an error
+    response. You can only change one password per request.
   image: https://avatars.githubusercontent.com/u/453694?v=3
   humanURL: https://developer.salesforce.com/
   baseURL: https://na14.salesforce.com//services/data
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-post.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
