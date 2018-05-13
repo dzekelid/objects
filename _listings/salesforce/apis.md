@@ -40,17 +40,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
-- name: SalesForce Add Version Sobjects User  Password
-  description: Changes the password for a given user ID. The new password must conform
-    to the password policies for the organization, otherwise you will get an error
-    response. You can only change one password per request.
+- name: SalesForce Delete Version Sobjects User  Password
+  description: Resets an user password. Salesforce will reset the user password to
+    an auto-generated password, which will be returned in the response.
   image: https://avatars.githubusercontent.com/u/453694?v=3
   humanURL: https://developer.salesforce.com/
   baseURL: https://na14.salesforce.com//services/data
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
