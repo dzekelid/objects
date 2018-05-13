@@ -34,16 +34,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/action-queryobjects-get.md
-- name: AWS Data Pipeline API Describe Objects
-  description: Gets the object definitions for a set of objects associated with the
-    pipeline.
+- name: AWS Data Pipeline API Query Objects
+  description: Queries the specified pipeline for the names of objects that match
+    the specified set of conditions.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/datapipelinelogo.jpeg
   humanURL: https://aws.amazon.com/datapipeline/
   baseURL: http:://{host}//
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/action-describeobjects-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/action-queryobjects-get.md
 x-common:
 - type: x-blog
   url: http://blogs.aws.amazon.com/bigdata
