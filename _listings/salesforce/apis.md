@@ -40,7 +40,35 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
+- name: SalesForce Get Version Sobjects
+  description: Lists the available objects and their metadata for your organization's
+    data. In addition, it provides the organization encoding, as well as maximum batch
+    size permitted in queries. For more information, see Internationalization and
+    Character Sets (http://www.salesforce.com/us/developer/docs/api/Content/implementation_considerations.htm#sforce_api_other_internationalization).
+  image: https://avatars.githubusercontent.com/u/453694?v=3
+  humanURL: https://developer.salesforce.com/
+  baseURL: https://na14.salesforce.com//services/data
+  tags: Objects
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-get.md
 x-common:
+- type: x-base
+  url: https://na1.salesforce.com
+- type: x-blog
+  url: https://developer.salesforce.com/blogs/
+- type: x-blog-rss
+  url: http://feeds.feedburner.com/SforceBlog
+- type: x-crunchbase
+  url: http://www.crunchbase.com/company/salesforce
+- type: x-github
+  url: https://github.com/salesforce
+- type: x-partners
+  url: https://partners.salesforce.com/
+- type: x-twitter
+  url: https://twitter.com/salesforcedevs
+- type: x-website
+  url: https://developer.salesforce.com/
 - type: x-base
   url: https://na1.salesforce.com
 - type: x-blog
