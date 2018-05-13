@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Data Pipeline API
+  title: AWS Data Pipeline API Describe Objects
   version: 1.0.0
+  description: Gets the object definitions for a set of objects associated with the
+    pipeline.
 schemes:
 - http
 produces:
