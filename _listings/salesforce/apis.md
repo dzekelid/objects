@@ -40,15 +40,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-user-id-password-delete.md
-- name: SalesForce Add Version Sobjects Sobject
-  description: Creates a new object.
+- name: SalesForce Get Version Sobjects Sobject Describe
+  description: Completely describes the individual metadata at all levels for the
+    specified object. For example, this can be used to retrieve the fields, URLs,
+    and child relationships for the Account object.
   image: https://avatars.githubusercontent.com/u/453694?v=3
   humanURL: https://developer.salesforce.com/
   baseURL: https://na14.salesforce.com//services/data
   tags: Objects
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/salesforce/version-sobjects-sobject-describe-get.md
 x-common:
 - type: x-base
   url: https://na1.salesforce.com
