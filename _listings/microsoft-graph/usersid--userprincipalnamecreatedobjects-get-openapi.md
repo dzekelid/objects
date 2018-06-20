@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API List Created Objects
+  title: Microsoft Graph List Created Objects
   description: List createdObjects Get a list of directory objects that were created
     by the user.
   version: 1.0.0

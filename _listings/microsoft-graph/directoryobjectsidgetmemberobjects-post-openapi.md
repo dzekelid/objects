@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API Get Member Objects
+  title: Microsoft Graph Get Member Objects
   description: Get member objects Returns all the groups and directory roles that
     a user, group, or directory object is a member of. This function is transitive.
   version: 1.0.0

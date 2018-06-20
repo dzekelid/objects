@@ -10,15 +10,15 @@ description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Mi
   insights from the Microsoft cloud (for commercial users).'
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Objects
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Microsoft Graph API Get Member Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Get Member Objects
+  x-api-slug: microsoft-graph
   description: Get member objects Returns all the groups and directory roles that
     a user, group, or directory object is a member of. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -30,8 +30,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/megetmemberobjects-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/megetmemberobjects-post-openapi.md
-- name: Microsoft Graph API Get Member Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Get Member Objects
+  x-api-slug: microsoft-graph
   description: Get member objects Returns all the groups and directory roles that
     a user, group, or directory object is a member of. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -43,8 +43,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnamegetmemberobjects-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnamegetmemberobjects-post-openapi.md
-- name: Microsoft Graph API Get Member Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Get Member Objects
+  x-api-slug: microsoft-graph
   description: Get member objects Returns all the groups and directory roles that
     a user, group, or directory object is a member of. This function is transitive.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -56,8 +56,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/directoryobjectsidgetmemberobjects-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/directoryobjectsidgetmemberobjects-post-openapi.md
-- name: Microsoft Graph API Group Get Member Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph Group Get Member Objects
+  x-api-slug: microsoft-graph
   description: 'group: getMemberObjects Return all of the groups that this group is
     a member of. The check is transitive. Note: Groups cannot be members of directory
     roles, so no directory roles will be returned.'
@@ -70,8 +70,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/groupsidgetmemberobjects-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/groupsidgetmemberobjects-post-openapi.md
-- name: Microsoft Graph API List Created Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph List Created Objects
+  x-api-slug: microsoft-graph
   description: List createdObjects Get a list of directory objects that were created
     by the user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -83,8 +83,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnamecreatedobjects-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnamecreatedobjects-get-openapi.md
-- name: Microsoft Graph API List Owned Objects
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph List Owned Objects
+  x-api-slug: microsoft-graph
   description: List ownedObjects Get the list of directory objects that are owned
     by the user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
@@ -96,8 +96,8 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnameownedobjects-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/usersid--userprincipalnameownedobjects-get-openapi.md
-- name: Microsoft Graph API
-  x-api-slug: microsoft-graph-api
+- name: Microsoft Graph
+  x-api-slug: microsoft-graph
   description: 'Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft
     cloud services through a single endpoint: https://graph.microsoft.com. Microsoft
     Graph simplifies queries that would otherwise be more complex. You can use Microsoft

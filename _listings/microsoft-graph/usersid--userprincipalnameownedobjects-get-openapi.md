@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 0
 info:
-  title: Microsoft Graph API List Owned Objects
+  title: Microsoft Graph List Owned Objects
   description: List ownedObjects Get the list of directory objects that are owned
     by the user.
   version: 1.0.0
