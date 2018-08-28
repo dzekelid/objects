@@ -1,0 +1,375 @@
+{
+	"name": "Streadata.io API Gallery - Objects",
+	"description": "This is a repository of objects APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/objects.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://objects.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "TVTag ",
+			"x-api-slug": "tvtag-",
+			"description": "Discover what to watch, share what youre watching with friends and fans, and get updates from your favorite shows",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/208-tvtag-.jpg",
+			"humanURL": "http://tvtag.com/",
+			"baseURL": "https:///",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/tvtag-/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MySpace Developers",
+			"x-api-slug": "myspace-developers",
+			"description": "AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram: http://instagram.com/Myspace  Tumblr: http://myspace.tumblr.com  YouTube: http://www.youtube.com/Myspace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg",
+			"humanURL": "http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API",
+			"baseURL": "https://api.myspace.com//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/myspace-developers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS S3",
+			"x-api-slug": "aws-s3",
+			"description": "Amazon Simple Storage Service (Amazon S3) is object storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is designed to deliver 99.999999999% durability, and scale past trillions of objects worldwide.Customers use S3 as a bulk repository, or data lake, for analytics; backup &amp; recovery; disaster recovery; and serverless computing. Many cloud-native applications even use S3 as primary storage.Its simple to move large volumes of data into or out of S3 with Amazonscloud data migrationoptions. Once data is stored in Amazon S3, it can be automatically tiered into lower cost, longer-termcloud storageclasses like S3 Standard - Infrequent Access and Amazon Glacier for archiving.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AmazonS3.png",
+			"humanURL": "https://aws.amazon.com/s3/",
+			"baseURL": "https:////",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-s3/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"x-api-slug": "aws-data-pipeline",
+			"description": "AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premise data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it&rsquo;s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR.AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don&rsquo;t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premise data silos.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AWSDataPipeline.png",
+			"humanURL": "https://aws.amazon.com/datapipeline/",
+			"baseURL": ":///",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Cloud Storage",
+			"x-api-slug": "google-cloud-storage",
+			"description": "Google Cloud Storage is unified object storage for developers and enterprises, from live data serving to data analytics/ML to data archiving. Google Cloud Storage allows world-wide storage and retrieval of any amount of data at any time. You can use Google Cloud Storage for a range of scenarios including serving website content, storing data for archival and disaster recovery, or distributing large data objects to users via direct download.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-cloud-storage-unified-object-storage-2x.png",
+			"humanURL": "https://cloud.google.com/storage/",
+			"baseURL": "https:///",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/google-cloud-storage/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Microsoft Graph",
+			"x-api-slug": "microsoft-graph",
+			"description": "Microsoft Graph exposes multiple APIs from Office 365 and other Microsoft cloud services through a single endpoint: https://graph.microsoft.com. Microsoft Graph simplifies queries that would otherwise be more complex. You can use Microsoft Graph to: Access data from multiple Microsoft cloud services, including Azure Active Directory, Exchange Online as part of Office 365, SharePoint, OneDrive, OneNote, and Planner. Navigate between entities and relationships. Access intelligence and insights from the Microsoft cloud (for commercial users).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png",
+			"humanURL": "https://developer.microsoft.com/en-us/graph/",
+			"baseURL": "https://graph.microsoft.com//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Automation",
+			"x-api-slug": "azure-automation",
+			"description": "Automate all of those frequent, time-consuming, and error-prone cloud management tasks. Azure Automation helps you focus on work that adds business value. By reducing errors and boosting efficiency, it also helps to lower your operational costs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-automation-save-time.png",
+			"humanURL": "https://azure.microsoft.com/en-us/services/automation/",
+			"baseURL": "://management.azure.com//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/azure-automation/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lisk",
+			"x-api-slug": "lisk",
+			"description": "Lisk makes it easy for developers to build and deploy blockchain applications in JavaScript. Join the leading platform for world-changing dapps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26631-lisk.jpg",
+			"humanURL": "https://lisk.io",
+			"baseURL": "https:////api",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/lisk/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Neblio",
+			"x-api-slug": "neblio",
+			"description": "Neblio was born out of the need for simple and intuitive tools and solutions to drive the adoption of blockchain technology in the enterprise space. We are working on tools, services, and APIs that will simplify and revolutionize the way that businesses deploy next-generation applications on the Neblio Blockchain Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26754-neblio.jpg",
+			"humanURL": "https://nebl.io",
+			"baseURL": "https://ntp1node.nebl.io//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/neblio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PayRun",
+			"x-api-slug": "payrun",
+			"description": "An open, scalable, transparent and HMRC accredited payroll API. Put the power of payroll into your application today.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28484-payrun-io.jpg",
+			"humanURL": "http://www.payrun.io",
+			"baseURL": "https://api.test.payrun.io//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/payrun/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "LogMeIn",
+			"x-api-slug": "logmein",
+			"description": "LogMeIn, Inc. is a provider of software as a service and cloud-based remote connectivity services for collaboration, IT management and customer engagement, founded in 2003 and based in Boston, Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28873-www-logmeininc-com.jpg",
+			"humanURL": "http://www.LogMeInInc.com",
+			"baseURL": "https://api.getgo.com//G2W/rest/organizers",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/logmein/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"x-api-slug": "ibm-financial-crimes-insight-for-insurance",
+			"description": "IBM&reg; Financial Crimes Insight&reg; for Insurance V3.0, formerly known as IBM Counter Fraud Management for Insurance, is now being offered as a cloud service offering. It helps organizations analyze data to determine the fraud risk of claims, medical providers, and other business entities, manage the full investigation lifecycle, and report on outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/WFS-Counter-Fraud-Technical-Level-3.png",
+			"humanURL": "https://www-01.ibm.com/common/ssi/cgi-bin/ssialias?infotype=AN&subtype=CA&htmlfid=897/ENUS218-305&appname=USN",
+			"baseURL": "https://fcihost.ibm.com:9443//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/ibm-financial-crimes-insight-for-insurance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Objects",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Objects",
+	"include": [
+		{
+			"name": "TVTag ",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/tvtag-/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "MySpace Developers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/myspace-developers/apis.yaml"
+		},
+		{
+			"name": "AWS S3",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-s3/apis.yaml"
+		},
+		{
+			"name": "AWS Data Pipeline",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/aws-data-pipeline/apis.yaml"
+		},
+		{
+			"name": "Google Cloud Storage",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/google-cloud-storage/apis.yaml"
+		},
+		{
+			"name": "Microsoft Graph",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/microsoft-graph/apis.yaml"
+		},
+		{
+			"name": "Azure Automation",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/azure-automation/apis.yaml"
+		},
+		{
+			"name": "Lisk",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/lisk/apis.yaml"
+		},
+		{
+			"name": "Neblio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/neblio/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "PayRun",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/payrun/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "LogMeIn",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/logmein/apis.yaml"
+		},
+		{
+			"name": "IBM Financial Crimes Insight for Insurance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/ibm-financial-crimes-insight-for-insurance/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/objects/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}

@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Microsoft Graph
 x-complete: 1
@@ -155,4 +154,43 @@ paths:
       - List
       - Owned
       - Objects
----
+  /directoryObjects/{id}:
+    delete:
+      summary: Delete Directory Object
+      description: Delete directoryObject Deletes a directoryObject.
+      operationId: DeleteDirectoryObject
+      x-api-path-slug: directoryobjectsid-delete
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Directory
+      - Object
+    get:
+      summary: Get Directory Object
+      description: Get directoryObject Retrieve the properties and relationships of
+        directoryObject object.
+      operationId: GetDirectoryObject
+      x-api-path-slug: directoryobjectsid-get
+      parameters:
+      - in: header
+        name: Authorization
+        description: 'Bearer '
+        type: string
+      - in: path
+        name: id
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Directory
+      - Object
